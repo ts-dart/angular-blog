@@ -1,0 +1,20 @@
+<section>
+  <article *ngFor='let post of posts'>
+    <div id='div-data'>
+      <p>{{formatDate(post.date)}}</p>
+    </div>
+    <div id='div-content-info'>
+      <h3>{{post.title.split(' ').length > 10
+        ? formatStringSize(post.title.split(' '), '', 10) 
+        : post.title}}</h3>
+      <p>{{post.description.split(' ').length > 30
+        ? formatStringSize(post.description.split(' '), '', 30) 
+        : post.description}}</p>
+    </div>
+    
+    <div id='div-btn'>
+      <!--<a [routerLink]="['post', post.id]"><button>Ver mais</button></a>-->
+    </div>
+    
+  </article>
+</section>

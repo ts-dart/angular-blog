@@ -1,0 +1,13 @@
+aside {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+aside img {
+  width: 8rem;
+}
+
+aside #div-content-bio h2 {
+  margin-bottom: 5px;
+}

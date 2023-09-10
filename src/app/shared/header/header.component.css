@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 5rem;
+  margin: auto;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header button {
+  background-color: white;
+  padding: 7px;
+  cursor: pointer;
+  border: black solid 1px
+}
+
+header button:hover {
+  background-color: #e2e0e0;
+}
+
+header input {
+  border: 1px #767676 solid;
+  border-radius: 10px;
+  padding: 7px;
+  width: 30%;
+}

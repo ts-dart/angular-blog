@@ -1,0 +1,71 @@
+section {
+  overflow: auto;
+  height: 500px;
+}
+
+article {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between ;
+  align-items: baseline;
+  padding: 10px 0px;
+  height: 6.5rem;
+}
+
+article div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#div-data {
+  width: 20%;
+}
+
+#div-data p {
+  font-size: 1rem;
+}
+
+#div-content-info {
+  display: flex;
+  flex-flow: column;
+  width: 60%;
+  
+}
+
+#div-content-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#div-btn {
+  width: 20%;
+}
+
+#div-btn button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: .850rem;
+}
+
+#div-btn button:hover {
+  background-color: #e2e0e0;
+}
+/*
+section::-webkit-scrollbar {
+  width: 5 px;
+  height: 5px;
+}
+
+section::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+
+section::-webkit-scrollbar-track {
+  background-color: black;
+}
+*/

@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 90%;
+  height: 400px;
+  margin: 50px auto;
+}
+
+app-aside {
+  width: 30%;
+}
+
+app-main {
+  margin-left: 10%;
+  height: 400px;
+} 
