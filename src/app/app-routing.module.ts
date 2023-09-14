@@ -7,11 +7,17 @@ import { PostComponent } from './pages/post/post.component'
 const routes: Routes = [
   {
     path:'',
-    component:HomeComponent
+    component:HomeComponent,
+    pathMatch:'prefix'
   },
   {
     path:'post/:id',
-    component:PostComponent
+    component:PostComponent,
+    pathMatch:'prefix'
+  },
+  {
+    path:'**',
+    redirectTo:''
   }
 ];
 
